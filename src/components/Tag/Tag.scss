@@ -1,0 +1,42 @@
+.tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px;
+
+  border-radius: 12px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+  cursor: pointer;
+}
+
+.text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 18px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.1px;
+
+  color: #39414b;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.active {
+  background: #5fbf77;
+}
+
+.active .text {
+  color: #ffffff;
+}

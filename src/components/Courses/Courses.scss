@@ -1,0 +1,21 @@
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 18px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 18px;
+
+  width: 100%;
+}
